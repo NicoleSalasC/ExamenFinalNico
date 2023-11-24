@@ -1,0 +1,78 @@
+
+Parte 1. Desarollo téorico. 12 pts
+
+Lista de Pr
+eguntas Seleccione 4 de ellas unicamente.
+
+1. [3 pts] ¿Qué es la herencia en Java y cómo se implementa? 
+Proporcione un ejemplo práctico de una clase que hereda de otra, 
+y explica la relación entre la clase padre e hija.
+
+R/ La herencia es la utilización de una clase padre a una/unas clases hijas: 
+esto permite la reutilización de código y el omitir el código redundante, e incluso
+generar jerarquías entre las clases. 
+Se usa teniendo la clase padre ya hecha, después, se crean las clases hijas,estas 
+utilizan la paabra reservada de "extends" donde se realizará un "super" con
+ los atributos creados en la clase padre, más
+los atributos únicos que tenga la clase hija. Por ejemplo, está la clase Persona,
+que tiene todos los atributos que tenga toda persona, y luego tenemos a Cliente,
+que es un Persona y tiene que tener los atributos de ella, más los atributos
+que son específicos para Cliente, como el numeroCliente.
+
+
+
+2.[3 pts] Explique el concepto de polimorfismo en Java. 
+Proporcione un ejemplo concreto utilizando métodos y explique cómo 
+el polimorfismo facilita el diseño de programas flexibles y extensibles.
+
+R/ El polimorfismo es la capacidad de utilizar métodos flexibles que puedan
+ser utilizados por diferentes clases. Por ejemplo, puede haber un método 
+que sea realizarSonidoAnimal(), donde las clases de Perro y Gato pueden tenerlo,
+pero lo realizarán de manera diferente: Gato hará "miau" y el Perro "guau", pero
+seguirá siendo el mismo método. 
+
+
+
+3.[3 pts] ¿Cuál es el propósito de una clase abstracta en Java? 
+Proporciona un ejemplo de una clase abstracta y explica cómo se diferencia
+ de una clase regular.
+ 
+R/ Una clase abstracta es una clase donde se encuentran métodos no implementados 
+y sin cuerpo. Ya después, en las clases que la implementen, con la palabra "extends", se le da la función
+que hará: es por así decirlo una fuente en común que tengan las clases que la
+utilicen. El propósito es que sirva de esqueleto o de base para que las demás
+clases la implementen y se le añade su respectivo código único.
+Se diferencia de una clase regular, es que una clase regular sí puede tener métodos
+con cuerpo y funciones totalmente funcionales, en cambio, las abstractas en sus métodos
+no pueden tener cuerpo en sus métodos. 
+
+
+
+4.[3 pts] Describa cómo se pueden leer y escribir datos en archivos en Java. 
+Menciona la importancia de manejar excepciones en este contexto.
+
+
+R/
+
+
+
+5.[3 pts] Explica el concepto de recursividad en Java. 
+Proporciona un ejemplo de una función recursiva y discute cómo funciona,
+ así como las precauciones que deben tomarse al utilizar la recursividad.
+
+
+R/ La recursividad es un método de codificación en el cual tiene que existir una
+función que se retorne a sí misma pero con nuevos valores, que es la llamada
+recursiva, esta sirve para acercanos cada vez más al objetivo del problema.
+Tiene que haber un caso base, que este es la condición final, a la que se tiene que acercar
+cada llamada recursivda. Hay que tener cuidado con la llamada recursiva, porque
+puede haber un bucle infinito si no se plantea corrctamente. 
+
+
+
+6.[3 pts] ¿Cómo se gestiona dinámicamente la memoria en Java? 
+Explica cómo Java aborda la liberación de memoria.
+
+R/
+
+
